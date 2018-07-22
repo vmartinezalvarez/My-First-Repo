@@ -1,7 +1,5 @@
-#1. clear
-2. pwd present working directory
-
-
-
-ls The ls command - the list command - functions in the Linux terminal to show all of 
-the major directories filed under a given file system. For example, the command:
+1. clear      
+2. pwd       present working directory
+3. cd        change directory (cd .. parent directory)4
+4. mkdir     make directory
+5. rm        remove (rm -r <name>) (-r recursively deletes content of a directory, including hidden files and sub directories)
