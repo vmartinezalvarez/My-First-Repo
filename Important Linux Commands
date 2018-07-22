@@ -2,4 +2,16 @@
 2. pwd       present working directory
 3. cd        change directory (cd .. parent directory)4
 4. mkdir     make directory
-5. rm        remove (rm -r <name>) (-r recursively deletes content of a directory, including hidden files and sub directories)
+5. rm        remove (rm -r <name>) 
+              -r
+              recursively deletes content of a directory, including hidden files and sub directories
+              depending on your configuration, it may ask for permission (for example, when using the --interactive flag). Some distributions do this by default.
+              can be used to remove a directory, if you want to do so, simply give it the path of the directory (for example: /path/to/directory)
+              -f
+              does not recursively delete content of a directory, only removes files that directly match the given path (for example example/file1 or example/*).
+              Never deletes sub directories
+              Never asks for permission, basically the yes to all in Windows
+              
+6. mv        move
+7. ls        list show
+8. rmdir        remove directory
