@@ -15,3 +15,8 @@
 6. mv        move
 7. ls        list show
 8. rmdir        remove directory
+
+9.           to rename move the file  i.e., mv name.txt other.txt
+
+
+text editor VIM command :q, Esc :w inset I
